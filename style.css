@@ -1,0 +1,12 @@
+body {
+    background-image: url('bg.png');
+}
+.topright {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 18px;
+}
+.centered {
+    text-align: center;
+}
