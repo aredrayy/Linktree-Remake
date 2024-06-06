@@ -19,7 +19,7 @@
 Project's main URL:
 ```
 
-https://www.figma.com/file/hbFA8ZtPOxNNAhF26RBlBU/Kinepolis?type=design&node-id=52%3A35&mode=design&t=AFpLg8GWXtvDO13e-1
+https://linktree-remake.vercel.app/
 
 ## Version History
 
