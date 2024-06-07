@@ -1,12 +1,67 @@
 body {
-    background-image: url('bg.png');
+    background-image: url('assets/bg.png');
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire background */
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    height: 100%; 
+    overflow: hidden;
 }
-.topright {
+
+
+.top-right {
     position: absolute;
     top: 16px;
     right: 16px;
     font-size: 18px;
 }
-.centered {
-    text-align: center;
+
+.avatar {
+    border-radius: 50%;
+    width: 96px;
+    margin-top: 30px;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    margin: 0 50px;
+    opacity: 0.6;
+}
+
+.social-icons,
+.buttons {
+    margin-top: 40px;
+}
+
+.social-icons input,
+.buttons input {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.create-button {
+    margin-top: 70px;
+}
+
+.image-button {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+}
+
+.image-button:hover {
+    opacity: 0.8;
+}
+
+.footer-copyright {
+    margin-top: 29px;
 }
